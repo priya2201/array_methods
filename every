@@ -1,0 +1,5 @@
+const ages=[22,23,45,66];
+console.log(ages.every(checkage));
+function checkage(age){
+    return age > 20
+}

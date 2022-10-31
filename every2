@@ -1,0 +1,18 @@
+const survey=[
+    {name:"pia",answer:"yes"},
+    {name:'vinni',answer:'yes'},
+    {name:'tushi',answer:'no'},
+    {name:'piyu',answer:'yes'}
+];
+let res=survey.every(issame);
+console.log(res);
+function issame(value,index,array){
+    console.log(value, index)
+    console.log(array)
+    if(index ===0 ){
+        return true;
+    }
+    else{
+        return (value.answer === array[index-1].answer);
+    }
+}
