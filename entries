@@ -5,3 +5,7 @@ for(let x of f){
     console.log(x);
 }
 console.log(f);
+
+
+
+
